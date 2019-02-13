@@ -5,6 +5,7 @@ using System.IO;
 
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.Experimental.Rendering.HDPipeline;
 
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
@@ -108,7 +109,7 @@ public class LightsImportWindow_fscene
 				if (lightType == "dir_light" || lightType == "point_light")
 				{
 
-					GameObject lightObject = new GameObject(lightName, new System.Type[] { typeof(Light) });
+					GameObject lightObject = new GameObject(lightName, new System.Type[] { typeof(Light), typeof(HDAdditionalLightData) });
 					Light light = lightObject.GetComponent<Light>();
 					light.transform.SetParent(root.transform);
 					light.transform.forward = new Vector3(-float.Parse(direction[0].ToString()), 
@@ -133,12 +134,18 @@ public class LightsImportWindow_fscene
 
 						var rawPos = l["pos"];
 
-
 						light.transform.localPosition = new Vector3(-float.Parse(rawPos[0].ToString()),
 																	+float.Parse(rawPos[1].ToString()),
 																	+float.Parse(rawPos[2].ToString()));
-						light.spotAngle = Mathf.Min(145.0f, 
-													float.Parse(l["opening_angle"].ToString()));
+
+						var spotAnlge = Mathf.Min(179.0f,
+												  float.Parse(l["opening_angle"].ToString()));
+						var innerAngle = Mathf.Min(spotAnlge, 
+												   float.Parse(l["penumbra_angle"].ToString()));
+						light.spotAngle = spotAnlge;
+						var innerPercenage = (spotAnlge - innerAngle) / spotAnlge;
+						var lightData = light.GetComponent<HDAdditionalLightData>();
+						lightData.m_InnerSpotPercent = 100.0f * innerPercenage;
 					}
 				}
 			}
