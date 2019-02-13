@@ -2624,7 +2624,177 @@ ModelImporter:
     4301028: Soul_FG7
     4301030: Soul_FG8
     4301032: SM_FirePit_29
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Arch_Inst
+    second: {fileID: 2100000, guid: b655aa847be5d8248adfab7bf57ecbdb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Arch_Inst_2
+    second: {fileID: 2100000, guid: e0e3afc4aaf14a145907db06275c3d63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Arch_Inst_Red
+    second: {fileID: 2100000, guid: ade7f70cb63daf14c9ad8ba72f4d2503, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Arch_Inst_Red_2
+    second: {fileID: 2100000, guid: d12d17b6cd19644469726a0604ee2496, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_BottomTrim_Inst
+    second: {fileID: 2100000, guid: 0b904cc0f3489104ea528532ac0d9e8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_BottomTrim_Inst_Black
+    second: {fileID: 2100000, guid: c264bc32c2b4e8b48a024e4ffad7eb39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_BottomTrim_Inst_UTile4
+    second: {fileID: 2100000, guid: 76294e84730815240a7fda1fce0b65fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Dome_2
+    second: {fileID: 2100000, guid: 8890fbdd057217c4a844f19bc9a4871d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Dome_Inst
+    second: {fileID: 2100000, guid: 1b9646ea8e6502943a91300a12e984ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_FirePit_Inst
+    second: {fileID: 2100000, guid: f3139c5fadac8254197f0dfd466b4edc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_FirePit_Inst_Glow
+    second: {fileID: 2100000, guid: 4705bc982821b4e478a7a0deb13ee0b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_FirePit_Inst_nofire
+    second: {fileID: 2100000, guid: c6eaadfc78eb90b47a3f2db74965b504, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_FloorTiles1_Inst
+    second: {fileID: 2100000, guid: 688707bd2ea2b22488be41adf319194d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_FloorTiles1_Inst_Blue
+    second: {fileID: 2100000, guid: 26aa3dcf84a814643afad08f862d1973, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_FloorTiles1_Inst_Inst2
+    second: {fileID: 2100000, guid: f44354b6c8a56d946be2ef2a3a1621fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_FloorTiles2_Inst
+    second: {fileID: 2100000, guid: 6f9945b431f92f840a17e6489cb6e747, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_FloorTiles2_Inst_Inst_Inst
+    second: {fileID: 2100000, guid: 13c64f6282240df42a531496f27fff3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_FloorTiles2_Inst_REd
+    second: {fileID: 2100000, guid: d4f655731f64a944497f9a5ede1d3f2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Pillar_Inst
+    second: {fileID: 2100000, guid: 0ff5f6c0500bec846a9ccca62746e45c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Pillar_Inst_Colored
+    second: {fileID: 2100000, guid: 2dd8e7376c505114a815215ca2906a3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Railing_Inst
+    second: {fileID: 2100000, guid: fdb9ddd8e15ec3d4fa676c06481bf6fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Rocks_Inst
+    second: {fileID: 2100000, guid: 0ea19bd41bd1c5d49b339de798189fc1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Shield_Inst
+    second: {fileID: 2100000, guid: 2faa693ecaeee2e40ac08fb1ed03b562, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Soul_Rocks2_Inst
+    second: {fileID: 2100000, guid: aa8a6e0c98e8ffb4cafacb6d0d0672a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Stairs_Inst
+    second: {fileID: 2100000, guid: 588fec6f28a6a5f49a7195427dab5255, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Statue_Inst
+    second: {fileID: 2100000, guid: f8fe427c0e6e2c345b113cf1237687a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_StoneBrickWall_Inst
+    second: {fileID: 2100000, guid: b86bfcc8c5d3e94498c7eebc98444a2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_StoneCeiling_Inst
+    second: {fileID: 2100000, guid: 8653a8d421c043e4baffea2a795ce135, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_TreeTrunk01_Inst
+    second: {fileID: 2100000, guid: 1a285c68a17073a44a70cd41ebefea45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Tree_Branches
+    second: {fileID: 2100000, guid: 727df670b594be1499eb63335da9ac7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Tree_Branches_Inst
+    second: {fileID: 2100000, guid: 880f31a0c2c60d245baea7b122cf4050, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Trim_Inst
+    second: {fileID: 2100000, guid: 9b1da8d9fa0a1ff479bc7b95b3597159, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Trim_Inst_Inst
+    second: {fileID: 2100000, guid: 810f261ca7c5e1649be4b5eea6138b59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Soul_Tree011M_Inst
+    second: {fileID: 2100000, guid: e9256399939082245ad4021e37b597ff, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
