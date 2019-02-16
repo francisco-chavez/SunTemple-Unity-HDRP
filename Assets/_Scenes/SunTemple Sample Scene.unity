@@ -902,6 +902,7 @@ GameObject:
   - component: {fileID: 707386947}
   - component: {fileID: 707386950}
   - component: {fileID: 707386951}
+  - component: {fileID: 707386952}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -932,7 +933,7 @@ Camera:
   m_SensorSize: {x: 24.89, y: 18.66}
   m_LensShift: {x: 0, y: 0}
   m_GateFitMode: 2
-  m_FocalLength: 42.08491
+  m_FocalLength: 20.00825
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -941,7 +942,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 24.999998
+  field of view: 50
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -1101,6 +1102,46 @@ MonoBehaviour:
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
   m_AfterStackBundles: []
+--- !u!114 &707386952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 707386946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8a636f62116c0a40bbfefdf876d4608, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boost: 3.5
+  positionLerpTime: 0.2
+  mouseSensitivityCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.5
+      inSlope: 0
+      outSlope: 5
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 2.5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  rotationLerpTime: 0.01
+  invertY: 0
 --- !u!1 &811638589
 GameObject:
   m_ObjectHideFlags: 0
