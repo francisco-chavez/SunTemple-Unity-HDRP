@@ -4,7 +4,8 @@
 Preset:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: SSSSettings_Default
   m_TargetType:
     m_NativeTypeID: 114
@@ -19,10 +20,6 @@ Preset:
   - target: {fileID: 0}
     propertyPath: m_EditorHideFlags
     value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Name
-    value: SSSSettings
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_EditorClassIdentifier
@@ -93,42 +90,6 @@ Preset:
     value: 1.36
     objectReference: {fileID: 0}
   - target: {fileID: 0}
-    propertyPath: profiles.Array.data[0].scatterDistance1.r
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[0].scatterDistance1.g
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[0].scatterDistance1.b
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[0].scatterDistance1.a
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[0].scatterDistance2.r
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[0].scatterDistance2.g
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[0].scatterDistance2.b
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[0].scatterDistance2.a
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[0].lerpWeight
-    value: 1
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
     propertyPath: profiles.Array.data[1].name
     value: Foliage
     objectReference: {fileID: 0}
@@ -187,42 +148,6 @@ Preset:
   - target: {fileID: 0}
     propertyPath: profiles.Array.data[1].ior
     value: 1.4
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[1].scatterDistance1.r
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[1].scatterDistance1.g
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[1].scatterDistance1.b
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[1].scatterDistance1.a
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[1].scatterDistance2.r
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[1].scatterDistance2.g
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[1].scatterDistance2.b
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[1].scatterDistance2.a
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[1].lerpWeight
-    value: 1
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: profiles.Array.data[2].name
@@ -285,42 +210,6 @@ Preset:
     value: 1.4
     objectReference: {fileID: 0}
   - target: {fileID: 0}
-    propertyPath: profiles.Array.data[2].scatterDistance1.r
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[2].scatterDistance1.g
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[2].scatterDistance1.b
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[2].scatterDistance1.a
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[2].scatterDistance2.r
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[2].scatterDistance2.g
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[2].scatterDistance2.b
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[2].scatterDistance2.a
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[2].lerpWeight
-    value: 1
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
     propertyPath: profiles.Array.data[3].name
     value: Profile 4
     objectReference: {fileID: 0}
@@ -379,42 +268,6 @@ Preset:
   - target: {fileID: 0}
     propertyPath: profiles.Array.data[3].ior
     value: 1.4
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[3].scatterDistance1.r
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[3].scatterDistance1.g
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[3].scatterDistance1.b
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[3].scatterDistance1.a
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[3].scatterDistance2.r
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[3].scatterDistance2.g
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[3].scatterDistance2.b
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[3].scatterDistance2.a
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[3].lerpWeight
-    value: 1
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: profiles.Array.data[4].name
@@ -477,42 +330,6 @@ Preset:
     value: 1.4
     objectReference: {fileID: 0}
   - target: {fileID: 0}
-    propertyPath: profiles.Array.data[4].scatterDistance1.r
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[4].scatterDistance1.g
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[4].scatterDistance1.b
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[4].scatterDistance1.a
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[4].scatterDistance2.r
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[4].scatterDistance2.g
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[4].scatterDistance2.b
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[4].scatterDistance2.a
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[4].lerpWeight
-    value: 1
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
     propertyPath: profiles.Array.data[5].name
     value: Profile 6
     objectReference: {fileID: 0}
@@ -571,42 +388,6 @@ Preset:
   - target: {fileID: 0}
     propertyPath: profiles.Array.data[5].ior
     value: 1.4
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[5].scatterDistance1.r
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[5].scatterDistance1.g
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[5].scatterDistance1.b
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[5].scatterDistance1.a
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[5].scatterDistance2.r
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[5].scatterDistance2.g
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[5].scatterDistance2.b
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[5].scatterDistance2.a
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[5].lerpWeight
-    value: 1
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: profiles.Array.data[6].name
@@ -669,42 +450,6 @@ Preset:
     value: 1.4
     objectReference: {fileID: 0}
   - target: {fileID: 0}
-    propertyPath: profiles.Array.data[6].scatterDistance1.r
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[6].scatterDistance1.g
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[6].scatterDistance1.b
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[6].scatterDistance1.a
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[6].scatterDistance2.r
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[6].scatterDistance2.g
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[6].scatterDistance2.b
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[6].scatterDistance2.a
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[6].lerpWeight
-    value: 1
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
     propertyPath: profiles.Array.data[7].name
     value: Profile 8
     objectReference: {fileID: 0}
@@ -763,42 +508,6 @@ Preset:
   - target: {fileID: 0}
     propertyPath: profiles.Array.data[7].ior
     value: 1.4
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[7].scatterDistance1.r
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[7].scatterDistance1.g
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[7].scatterDistance1.b
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[7].scatterDistance1.a
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[7].scatterDistance2.r
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[7].scatterDistance2.g
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[7].scatterDistance2.b
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[7].scatterDistance2.a
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[7].lerpWeight
-    value: 1
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: profiles.Array.data[8].name
@@ -861,42 +570,6 @@ Preset:
     value: 1.4
     objectReference: {fileID: 0}
   - target: {fileID: 0}
-    propertyPath: profiles.Array.data[8].scatterDistance1.r
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[8].scatterDistance1.g
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[8].scatterDistance1.b
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[8].scatterDistance1.a
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[8].scatterDistance2.r
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[8].scatterDistance2.g
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[8].scatterDistance2.b
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[8].scatterDistance2.a
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[8].lerpWeight
-    value: 1
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
     propertyPath: profiles.Array.data[9].name
     value: Profile 10
     objectReference: {fileID: 0}
@@ -955,42 +628,6 @@ Preset:
   - target: {fileID: 0}
     propertyPath: profiles.Array.data[9].ior
     value: 1.4
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[9].scatterDistance1.r
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[9].scatterDistance1.g
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[9].scatterDistance1.b
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[9].scatterDistance1.a
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[9].scatterDistance2.r
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[9].scatterDistance2.g
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[9].scatterDistance2.b
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[9].scatterDistance2.a
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[9].lerpWeight
-    value: 1
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: profiles.Array.data[10].name
@@ -1053,42 +690,6 @@ Preset:
     value: 1.4
     objectReference: {fileID: 0}
   - target: {fileID: 0}
-    propertyPath: profiles.Array.data[10].scatterDistance1.r
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[10].scatterDistance1.g
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[10].scatterDistance1.b
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[10].scatterDistance1.a
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[10].scatterDistance2.r
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[10].scatterDistance2.g
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[10].scatterDistance2.b
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[10].scatterDistance2.a
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[10].lerpWeight
-    value: 1
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
     propertyPath: profiles.Array.data[11].name
     value: Profile 12
     objectReference: {fileID: 0}
@@ -1147,42 +748,6 @@ Preset:
   - target: {fileID: 0}
     propertyPath: profiles.Array.data[11].ior
     value: 1.4
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[11].scatterDistance1.r
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[11].scatterDistance1.g
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[11].scatterDistance1.b
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[11].scatterDistance1.a
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[11].scatterDistance2.r
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[11].scatterDistance2.g
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[11].scatterDistance2.b
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[11].scatterDistance2.a
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[11].lerpWeight
-    value: 1
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: profiles.Array.data[12].name
@@ -1245,42 +810,6 @@ Preset:
     value: 1.4
     objectReference: {fileID: 0}
   - target: {fileID: 0}
-    propertyPath: profiles.Array.data[12].scatterDistance1.r
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[12].scatterDistance1.g
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[12].scatterDistance1.b
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[12].scatterDistance1.a
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[12].scatterDistance2.r
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[12].scatterDistance2.g
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[12].scatterDistance2.b
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[12].scatterDistance2.a
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[12].lerpWeight
-    value: 1
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
     propertyPath: profiles.Array.data[13].name
     value: Profile 14
     objectReference: {fileID: 0}
@@ -1341,42 +870,6 @@ Preset:
     value: 1.4
     objectReference: {fileID: 0}
   - target: {fileID: 0}
-    propertyPath: profiles.Array.data[13].scatterDistance1.r
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[13].scatterDistance1.g
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[13].scatterDistance1.b
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[13].scatterDistance1.a
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[13].scatterDistance2.r
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[13].scatterDistance2.g
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[13].scatterDistance2.b
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[13].scatterDistance2.a
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[13].lerpWeight
-    value: 1
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
     propertyPath: profiles.Array.data[14].name
     value: Profile 15
     objectReference: {fileID: 0}
@@ -1435,40 +928,4 @@ Preset:
   - target: {fileID: 0}
     propertyPath: profiles.Array.data[14].ior
     value: 1.4
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[14].scatterDistance1.r
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[14].scatterDistance1.g
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[14].scatterDistance1.b
-    value: 0.3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[14].scatterDistance1.a
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[14].scatterDistance2.r
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[14].scatterDistance2.g
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[14].scatterDistance2.b
-    value: 0.5
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[14].scatterDistance2.a
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: profiles.Array.data[14].lerpWeight
-    value: 1
     objectReference: {fileID: 0}
