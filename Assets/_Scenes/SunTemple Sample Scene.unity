@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 3.732528, g: 3.766962, b: 3.927445, a: 1}
+  m_IndirectSpecularColor: {r: 3.7326365, g: 3.766974, b: 3.9274552, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -178,7 +178,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &126996903
 Transform:
@@ -207,16 +207,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Version: 1
-  shadowResolution: 512
+  shadowResolution: 1024
   shadowDimmer: 1
   volumetricShadowDimmer: 1
   shadowFadeDistance: 1000
-  contactShadows: 0
+  contactShadows: 1
   viewBiasMin: 1
   viewBiasMax: 100
   viewBiasScale: 0
-  normalBiasMin: 0.1
-  normalBiasMax: 0.1
+  normalBiasMin: 0
+  normalBiasMax: 0
   normalBiasScale: 1
   sampleBiasScale: 0
   edgeLeakFixup: 1
@@ -256,8 +256,7 @@ MonoBehaviour:
   directionalIntensity: 3.1415927
   punctualIntensity: 600
   areaIntensity: 200
-  enableSpotReflector: 0
-  luxAtDistance: 1
+  enableSpotReflector: 1
   m_InnerSpotPercent: 47
   lightDimmer: 1
   m_VolumetricDimmer: 1
@@ -279,15 +278,14 @@ MonoBehaviour:
   useOldInspector: 0
   useVolumetric: 0
   featuresFoldout: 1
-  showAdditionalSettings: 12
+  showAdditionalSettings: 14
   displayLightIntensity: 200
   displayAreaLightEmissiveMesh: 0
   lightLayers: 1
-  shadowNearPlane: 0.01
+  shadowNearPlane: 0.0001
   shadowSoftness: 0.5
   blockerSampleCount: 24
   filterSampleCount: 16
-  minFilterSize: 0.00001
 --- !u!108 &126996906
 Light:
   m_ObjectHideFlags: 0
@@ -299,12 +297,12 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0.23529412, b: 0.078431375, a: 1}
-  m_Intensity: 15.915494
+  m_Intensity: 32.11121
   m_Range: 20
   m_SpotAngle: 179
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -2867,7 +2865,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &291056919
 Transform:
@@ -2896,16 +2894,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Version: 1
-  shadowResolution: 512
+  shadowResolution: 1024
   shadowDimmer: 1
   volumetricShadowDimmer: 1
   shadowFadeDistance: 1000
-  contactShadows: 0
+  contactShadows: 1
   viewBiasMin: 1
   viewBiasMax: 100
   viewBiasScale: 0
-  normalBiasMin: 0.1
-  normalBiasMax: 0.1
+  normalBiasMin: 0
+  normalBiasMax: 0
   normalBiasScale: 1
   sampleBiasScale: 0
   edgeLeakFixup: 1
@@ -2945,8 +2943,7 @@ MonoBehaviour:
   directionalIntensity: 3.1415927
   punctualIntensity: 600
   areaIntensity: 200
-  enableSpotReflector: 0
-  luxAtDistance: 1
+  enableSpotReflector: 1
   m_InnerSpotPercent: 47
   lightDimmer: 1
   m_VolumetricDimmer: 1
@@ -2968,15 +2965,14 @@ MonoBehaviour:
   useOldInspector: 0
   useVolumetric: 0
   featuresFoldout: 1
-  showAdditionalSettings: 12
+  showAdditionalSettings: 14
   displayLightIntensity: 200
   displayAreaLightEmissiveMesh: 0
   lightLayers: 1
-  shadowNearPlane: 0.01
+  shadowNearPlane: 0.0001
   shadowSoftness: 0.5
   blockerSampleCount: 24
   filterSampleCount: 16
-  minFilterSize: 0.00001
 --- !u!108 &291056922
 Light:
   m_ObjectHideFlags: 0
@@ -2988,12 +2984,12 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0.23529412, b: 0.078431375, a: 1}
-  m_Intensity: 15.915494
+  m_Intensity: 32.11121
   m_Range: 30
   m_SpotAngle: 179
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -3032,7 +3028,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &359806510
 Transform:
@@ -3061,16 +3057,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Version: 1
-  shadowResolution: 512
+  shadowResolution: 1024
   shadowDimmer: 1
   volumetricShadowDimmer: 1
   shadowFadeDistance: 1000
-  contactShadows: 0
+  contactShadows: 1
   viewBiasMin: 1
   viewBiasMax: 100
   viewBiasScale: 0
-  normalBiasMin: 0.1
-  normalBiasMax: 0.1
+  normalBiasMin: 0
+  normalBiasMax: 0
   normalBiasScale: 1
   sampleBiasScale: 0
   edgeLeakFixup: 1
@@ -3110,8 +3106,7 @@ MonoBehaviour:
   directionalIntensity: 3.1415927
   punctualIntensity: 600
   areaIntensity: 200
-  enableSpotReflector: 0
-  luxAtDistance: 1
+  enableSpotReflector: 1
   m_InnerSpotPercent: 47
   lightDimmer: 1
   m_VolumetricDimmer: 1
@@ -3133,15 +3128,14 @@ MonoBehaviour:
   useOldInspector: 0
   useVolumetric: 0
   featuresFoldout: 1
-  showAdditionalSettings: 13
+  showAdditionalSettings: 14
   displayLightIntensity: 200
   displayAreaLightEmissiveMesh: 0
   lightLayers: 1
-  shadowNearPlane: 0.01
+  shadowNearPlane: 0.0001
   shadowSoftness: 0.5
   blockerSampleCount: 24
   filterSampleCount: 16
-  minFilterSize: 0.00001
 --- !u!108 &359806513
 Light:
   m_ObjectHideFlags: 0
@@ -3153,12 +3147,12 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0.23529412, b: 0.078431375, a: 1}
-  m_Intensity: 15.915494
+  m_Intensity: 32.11121
   m_Range: 35
   m_SpotAngle: 179
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -3276,7 +3270,6 @@ MonoBehaviour:
   punctualIntensity: 600
   areaIntensity: 200
   enableSpotReflector: 0
-  luxAtDistance: 1
   m_InnerSpotPercent: 0
   lightDimmer: 1
   m_VolumetricDimmer: 1
@@ -3299,14 +3292,13 @@ MonoBehaviour:
   useVolumetric: 1
   featuresFoldout: 1
   showAdditionalSettings: 0
-  displayLightIntensity: 200
+  displayLightIntensity: 5
   displayAreaLightEmissiveMesh: 0
   lightLayers: 1
   shadowNearPlane: 0.1
   shadowSoftness: 0.5
   blockerSampleCount: 24
   filterSampleCount: 16
-  minFilterSize: 0.00001
 --- !u!108 &378506629
 Light:
   m_ObjectHideFlags: 0
@@ -3318,7 +3310,7 @@ Light:
   serializedVersion: 8
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 200
+  m_Intensity: 5
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -3487,8 +3479,6 @@ MonoBehaviour:
     runLightListAsync: 1
     runSSRAsync: 1
     runSSAOAsync: 1
-    runContactShadowsAsync: 1
-    runVolumeVoxelizationAsync: 1
     lightLoopSettings:
       overrides: 0
       enableTileAndCluster: 1
@@ -3615,7 +3605,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &811638590
 Transform:
@@ -3644,16 +3634,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Version: 1
-  shadowResolution: 512
+  shadowResolution: 1024
   shadowDimmer: 1
   volumetricShadowDimmer: 1
   shadowFadeDistance: 1000
-  contactShadows: 0
-  viewBiasMin: 0.2
+  contactShadows: 1
+  viewBiasMin: 1
   viewBiasMax: 100
-  viewBiasScale: 1
-  normalBiasMin: 0.5
-  normalBiasMax: 0.5
+  viewBiasScale: 0
+  normalBiasMin: 0
+  normalBiasMax: 0
   normalBiasScale: 1
   sampleBiasScale: 0
   edgeLeakFixup: 1
@@ -3693,8 +3683,7 @@ MonoBehaviour:
   directionalIntensity: 3.1415927
   punctualIntensity: 600
   areaIntensity: 200
-  enableSpotReflector: 0
-  luxAtDistance: 1
+  enableSpotReflector: 1
   m_InnerSpotPercent: 100
   lightDimmer: 1
   m_VolumetricDimmer: 1
@@ -3716,15 +3705,14 @@ MonoBehaviour:
   useOldInspector: 0
   useVolumetric: 0
   featuresFoldout: 1
-  showAdditionalSettings: 4
+  showAdditionalSettings: 14
   displayLightIntensity: 225
   displayAreaLightEmissiveMesh: 0
   lightLayers: 1
-  shadowNearPlane: 0.1
+  shadowNearPlane: 0.0001
   shadowSoftness: 0.5
   blockerSampleCount: 24
   filterSampleCount: 16
-  minFilterSize: 0.00001
 --- !u!108 &811638593
 Light:
   m_ObjectHideFlags: 0
@@ -3736,12 +3724,12 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0.078431375, b: 0, a: 1}
-  m_Intensity: 17.90493
+  m_Intensity: 36.12511
   m_Range: 16
   m_SpotAngle: 179
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -3780,7 +3768,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &929396090
 Transform:
@@ -3809,16 +3797,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Version: 1
-  shadowResolution: 512
+  shadowResolution: 1024
   shadowDimmer: 1
   volumetricShadowDimmer: 1
   shadowFadeDistance: 1000
-  contactShadows: 0
+  contactShadows: 1
   viewBiasMin: 1
   viewBiasMax: 100
   viewBiasScale: 0
-  normalBiasMin: 0.1
-  normalBiasMax: 0.1
+  normalBiasMin: 0
+  normalBiasMax: 0
   normalBiasScale: 1
   sampleBiasScale: 0
   edgeLeakFixup: 1
@@ -3858,8 +3846,7 @@ MonoBehaviour:
   directionalIntensity: 3.1415927
   punctualIntensity: 600
   areaIntensity: 200
-  enableSpotReflector: 0
-  luxAtDistance: 1
+  enableSpotReflector: 1
   m_InnerSpotPercent: 47
   lightDimmer: 1
   m_VolumetricDimmer: 1
@@ -3881,15 +3868,14 @@ MonoBehaviour:
   useOldInspector: 0
   useVolumetric: 0
   featuresFoldout: 1
-  showAdditionalSettings: 12
+  showAdditionalSettings: 14
   displayLightIntensity: 200
   displayAreaLightEmissiveMesh: 0
   lightLayers: 1
-  shadowNearPlane: 0.01
+  shadowNearPlane: 0.0001
   shadowSoftness: 0.5
   blockerSampleCount: 24
   filterSampleCount: 16
-  minFilterSize: 0.00001
 --- !u!108 &929396093
 Light:
   m_ObjectHideFlags: 0
@@ -3901,12 +3887,12 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0.23529412, b: 0.078431375, a: 1}
-  m_Intensity: 15.915494
+  m_Intensity: 32.11121
   m_Range: 18
   m_SpotAngle: 179
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -3945,7 +3931,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &992002410
 Transform:
@@ -3974,16 +3960,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Version: 1
-  shadowResolution: 512
+  shadowResolution: 1024
   shadowDimmer: 1
   volumetricShadowDimmer: 1
   shadowFadeDistance: 1000
-  contactShadows: 0
+  contactShadows: 1
   viewBiasMin: 1
   viewBiasMax: 100
   viewBiasScale: 0
-  normalBiasMin: 0.1
-  normalBiasMax: 0.1
+  normalBiasMin: 0
+  normalBiasMax: 0
   normalBiasScale: 1
   sampleBiasScale: 0
   edgeLeakFixup: 1
@@ -4023,8 +4009,7 @@ MonoBehaviour:
   directionalIntensity: 3.1415927
   punctualIntensity: 600
   areaIntensity: 200
-  enableSpotReflector: 0
-  luxAtDistance: 1
+  enableSpotReflector: 1
   m_InnerSpotPercent: 47
   lightDimmer: 1
   m_VolumetricDimmer: 1
@@ -4046,15 +4031,14 @@ MonoBehaviour:
   useOldInspector: 0
   useVolumetric: 0
   featuresFoldout: 1
-  showAdditionalSettings: 12
+  showAdditionalSettings: 14
   displayLightIntensity: 200
   displayAreaLightEmissiveMesh: 0
   lightLayers: 1
-  shadowNearPlane: 0.01
+  shadowNearPlane: 0.0001
   shadowSoftness: 0.5
   blockerSampleCount: 24
   filterSampleCount: 16
-  minFilterSize: 0.00001
 --- !u!108 &992002413
 Light:
   m_ObjectHideFlags: 0
@@ -4066,12 +4050,12 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0.23529412, b: 0.078431375, a: 1}
-  m_Intensity: 15.915494
+  m_Intensity: 32.11121
   m_Range: 17
   m_SpotAngle: 179
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -4110,7 +4094,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1128183111
 Transform:
@@ -4139,16 +4123,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Version: 1
-  shadowResolution: 512
+  shadowResolution: 1024
   shadowDimmer: 1
   volumetricShadowDimmer: 1
   shadowFadeDistance: 1000
-  contactShadows: 0
+  contactShadows: 1
   viewBiasMin: 1
   viewBiasMax: 100
   viewBiasScale: 0
-  normalBiasMin: 0.1
-  normalBiasMax: 0.1
+  normalBiasMin: 0
+  normalBiasMax: 0
   normalBiasScale: 1
   sampleBiasScale: 0
   edgeLeakFixup: 1
@@ -4188,8 +4172,7 @@ MonoBehaviour:
   directionalIntensity: 3.1415927
   punctualIntensity: 600
   areaIntensity: 200
-  enableSpotReflector: 0
-  luxAtDistance: 1
+  enableSpotReflector: 1
   m_InnerSpotPercent: 47
   lightDimmer: 1
   m_VolumetricDimmer: 1
@@ -4211,15 +4194,14 @@ MonoBehaviour:
   useOldInspector: 0
   useVolumetric: 0
   featuresFoldout: 1
-  showAdditionalSettings: 12
+  showAdditionalSettings: 14
   displayLightIntensity: 200
   displayAreaLightEmissiveMesh: 0
   lightLayers: 1
-  shadowNearPlane: 0.01
+  shadowNearPlane: 0.0001
   shadowSoftness: 0.5
   blockerSampleCount: 24
   filterSampleCount: 16
-  minFilterSize: 0.00001
 --- !u!108 &1128183114
 Light:
   m_ObjectHideFlags: 0
@@ -4231,12 +4213,12 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0.23529412, b: 0.078431375, a: 1}
-  m_Intensity: 15.915494
+  m_Intensity: 32.11121
   m_Range: 25
   m_SpotAngle: 179
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -4275,7 +4257,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1272231664
 Transform:
@@ -4304,16 +4286,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Version: 1
-  shadowResolution: 512
+  shadowResolution: 1024
   shadowDimmer: 1
   volumetricShadowDimmer: 1
   shadowFadeDistance: 1000
-  contactShadows: 0
+  contactShadows: 1
   viewBiasMin: 1
   viewBiasMax: 100
   viewBiasScale: 0
-  normalBiasMin: 0.1
-  normalBiasMax: 0.1
+  normalBiasMin: 0
+  normalBiasMax: 0
   normalBiasScale: 1
   sampleBiasScale: 0
   edgeLeakFixup: 1
@@ -4353,8 +4335,7 @@ MonoBehaviour:
   directionalIntensity: 3.1415927
   punctualIntensity: 600
   areaIntensity: 200
-  enableSpotReflector: 0
-  luxAtDistance: 1
+  enableSpotReflector: 1
   m_InnerSpotPercent: 47
   lightDimmer: 1
   m_VolumetricDimmer: 1
@@ -4376,15 +4357,14 @@ MonoBehaviour:
   useOldInspector: 0
   useVolumetric: 0
   featuresFoldout: 1
-  showAdditionalSettings: 15
+  showAdditionalSettings: 14
   displayLightIntensity: 225
   displayAreaLightEmissiveMesh: 0
   lightLayers: 1
-  shadowNearPlane: 0.01
+  shadowNearPlane: 0.0001
   shadowSoftness: 0.5
   blockerSampleCount: 24
   filterSampleCount: 16
-  minFilterSize: 0.00001
 --- !u!108 &1272231667
 Light:
   m_ObjectHideFlags: 0
@@ -4396,12 +4376,12 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0.078431375, b: 0, a: 1}
-  m_Intensity: 17.90493
+  m_Intensity: 36.12511
   m_Range: 20
   m_SpotAngle: 179
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -4440,7 +4420,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1361173603
 Transform:
@@ -4469,16 +4449,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Version: 1
-  shadowResolution: 512
+  shadowResolution: 1024
   shadowDimmer: 1
   volumetricShadowDimmer: 1
   shadowFadeDistance: 1000
-  contactShadows: 0
+  contactShadows: 1
   viewBiasMin: 1
   viewBiasMax: 100
   viewBiasScale: 0
-  normalBiasMin: 0.1
-  normalBiasMax: 0.1
+  normalBiasMin: 0
+  normalBiasMax: 0
   normalBiasScale: 1
   sampleBiasScale: 0
   edgeLeakFixup: 1
@@ -4518,8 +4498,7 @@ MonoBehaviour:
   directionalIntensity: 3.1415927
   punctualIntensity: 600
   areaIntensity: 200
-  enableSpotReflector: 0
-  luxAtDistance: 1
+  enableSpotReflector: 1
   m_InnerSpotPercent: 47
   lightDimmer: 1
   m_VolumetricDimmer: 1
@@ -4541,15 +4520,14 @@ MonoBehaviour:
   useOldInspector: 0
   useVolumetric: 0
   featuresFoldout: 1
-  showAdditionalSettings: 12
+  showAdditionalSettings: 14
   displayLightIntensity: 200
   displayAreaLightEmissiveMesh: 0
   lightLayers: 1
-  shadowNearPlane: 0.01
+  shadowNearPlane: 0.0001
   shadowSoftness: 0.5
   blockerSampleCount: 24
   filterSampleCount: 16
-  minFilterSize: 0.00001
 --- !u!108 &1361173606
 Light:
   m_ObjectHideFlags: 0
@@ -4561,12 +4539,12 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0.23529412, b: 0.078431375, a: 1}
-  m_Intensity: 15.915494
+  m_Intensity: 32.11121
   m_Range: 24
   m_SpotAngle: 179
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -4605,7 +4583,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1589970466
 Transform:
@@ -4634,16 +4612,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Version: 1
-  shadowResolution: 512
+  shadowResolution: 1024
   shadowDimmer: 1
   volumetricShadowDimmer: 1
   shadowFadeDistance: 1000
-  contactShadows: 0
+  contactShadows: 1
   viewBiasMin: 1
   viewBiasMax: 100
   viewBiasScale: 0
-  normalBiasMin: 0.1
-  normalBiasMax: 0.1
+  normalBiasMin: 0
+  normalBiasMax: 0
   normalBiasScale: 1
   sampleBiasScale: 0
   edgeLeakFixup: 1
@@ -4683,8 +4661,7 @@ MonoBehaviour:
   directionalIntensity: 3.1415927
   punctualIntensity: 600
   areaIntensity: 200
-  enableSpotReflector: 0
-  luxAtDistance: 1
+  enableSpotReflector: 1
   m_InnerSpotPercent: 47
   lightDimmer: 1
   m_VolumetricDimmer: 1
@@ -4706,15 +4683,14 @@ MonoBehaviour:
   useOldInspector: 0
   useVolumetric: 0
   featuresFoldout: 1
-  showAdditionalSettings: 12
+  showAdditionalSettings: 14
   displayLightIntensity: 200
   displayAreaLightEmissiveMesh: 0
   lightLayers: 1
-  shadowNearPlane: 0.01
+  shadowNearPlane: 0.0001
   shadowSoftness: 0.5
   blockerSampleCount: 24
   filterSampleCount: 16
-  minFilterSize: 0.00001
 --- !u!108 &1589970469
 Light:
   m_ObjectHideFlags: 0
@@ -4726,12 +4702,12 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0.23529412, b: 0.078431375, a: 1}
-  m_Intensity: 15.915494
+  m_Intensity: 32.11121
   m_Range: 24
   m_SpotAngle: 179
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -4770,7 +4746,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1598134694
 Transform:
@@ -4799,16 +4775,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Version: 1
-  shadowResolution: 512
+  shadowResolution: 1024
   shadowDimmer: 1
   volumetricShadowDimmer: 1
   shadowFadeDistance: 1000
-  contactShadows: 0
+  contactShadows: 1
   viewBiasMin: 1
   viewBiasMax: 100
   viewBiasScale: 0
-  normalBiasMin: 0.1
-  normalBiasMax: 0.1
+  normalBiasMin: 0
+  normalBiasMax: 0
   normalBiasScale: 1
   sampleBiasScale: 0
   edgeLeakFixup: 1
@@ -4848,8 +4824,7 @@ MonoBehaviour:
   directionalIntensity: 3.1415927
   punctualIntensity: 600
   areaIntensity: 200
-  enableSpotReflector: 0
-  luxAtDistance: 1
+  enableSpotReflector: 1
   m_InnerSpotPercent: 47
   lightDimmer: 1
   m_VolumetricDimmer: 1
@@ -4871,15 +4846,14 @@ MonoBehaviour:
   useOldInspector: 0
   useVolumetric: 0
   featuresFoldout: 1
-  showAdditionalSettings: 12
+  showAdditionalSettings: 14
   displayLightIntensity: 200
   displayAreaLightEmissiveMesh: 0
   lightLayers: 1
-  shadowNearPlane: 0.01
+  shadowNearPlane: 0.0001
   shadowSoftness: 0.5
   blockerSampleCount: 24
   filterSampleCount: 16
-  minFilterSize: 0.00001
 --- !u!108 &1598134697
 Light:
   m_ObjectHideFlags: 0
@@ -4891,12 +4865,12 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0.23529412, b: 0.078431375, a: 1}
-  m_Intensity: 15.915494
+  m_Intensity: 32.11121
   m_Range: 18
   m_SpotAngle: 179
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -4998,7 +4972,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1812601732
 Transform:
@@ -5027,16 +5001,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Version: 1
-  shadowResolution: 512
+  shadowResolution: 1024
   shadowDimmer: 1
   volumetricShadowDimmer: 1
   shadowFadeDistance: 1000
-  contactShadows: 0
+  contactShadows: 1
   viewBiasMin: 1
   viewBiasMax: 100
   viewBiasScale: 0
-  normalBiasMin: 0.1
-  normalBiasMax: 0.1
+  normalBiasMin: 0
+  normalBiasMax: 0
   normalBiasScale: 1
   sampleBiasScale: 0
   edgeLeakFixup: 1
@@ -5076,8 +5050,7 @@ MonoBehaviour:
   directionalIntensity: 3.1415927
   punctualIntensity: 600
   areaIntensity: 200
-  enableSpotReflector: 0
-  luxAtDistance: 1
+  enableSpotReflector: 1
   m_InnerSpotPercent: 47
   lightDimmer: 1
   m_VolumetricDimmer: 1
@@ -5099,15 +5072,14 @@ MonoBehaviour:
   useOldInspector: 0
   useVolumetric: 0
   featuresFoldout: 1
-  showAdditionalSettings: 12
+  showAdditionalSettings: 14
   displayLightIntensity: 200
   displayAreaLightEmissiveMesh: 0
   lightLayers: 1
-  shadowNearPlane: 0.01
+  shadowNearPlane: 0.0001
   shadowSoftness: 0.5
   blockerSampleCount: 24
   filterSampleCount: 16
-  minFilterSize: 0.00001
 --- !u!108 &1812601735
 Light:
   m_ObjectHideFlags: 0
@@ -5119,12 +5091,12 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0.23529412, b: 0.078431375, a: 1}
-  m_Intensity: 15.915494
+  m_Intensity: 32.11121
   m_Range: 30
   m_SpotAngle: 179
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -5207,7 +5179,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1962276606
 Transform:
@@ -5236,16 +5208,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Version: 1
-  shadowResolution: 512
+  shadowResolution: 1024
   shadowDimmer: 1
   volumetricShadowDimmer: 1
   shadowFadeDistance: 1000
-  contactShadows: 0
+  contactShadows: 1
   viewBiasMin: 1
   viewBiasMax: 100
   viewBiasScale: 0
-  normalBiasMin: 0.1
-  normalBiasMax: 0.1
+  normalBiasMin: 0
+  normalBiasMax: 0
   normalBiasScale: 1
   sampleBiasScale: 0
   edgeLeakFixup: 1
@@ -5285,8 +5257,7 @@ MonoBehaviour:
   directionalIntensity: 3.1415927
   punctualIntensity: 600
   areaIntensity: 200
-  enableSpotReflector: 0
-  luxAtDistance: 1
+  enableSpotReflector: 1
   m_InnerSpotPercent: 47
   lightDimmer: 1
   m_VolumetricDimmer: 1
@@ -5308,15 +5279,14 @@ MonoBehaviour:
   useOldInspector: 0
   useVolumetric: 0
   featuresFoldout: 1
-  showAdditionalSettings: 12
+  showAdditionalSettings: 14
   displayLightIntensity: 200
   displayAreaLightEmissiveMesh: 0
   lightLayers: 1
-  shadowNearPlane: 0.01
+  shadowNearPlane: 0.0001
   shadowSoftness: 0.5
   blockerSampleCount: 24
   filterSampleCount: 16
-  minFilterSize: 0.00001
 --- !u!108 &1962276609
 Light:
   m_ObjectHideFlags: 0
@@ -5328,12 +5298,12 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0.23529412, b: 0.078431375, a: 1}
-  m_Intensity: 15.915494
+  m_Intensity: 32.11121
   m_Range: 35
   m_SpotAngle: 179
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
