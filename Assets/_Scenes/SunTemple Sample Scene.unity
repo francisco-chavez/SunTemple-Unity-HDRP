@@ -57,15 +57,15 @@ LightmapSettings:
     serializedVersion: 10
     m_Resolution: 2
     m_BakeResolution: 40
-    m_AtlasSize: 1024
-    m_AO: 0
-    m_AOMaxDistance: 1
+    m_AtlasSize: 2048
+    m_AO: 1
+    m_AOMaxDistance: 0.2
     m_CompAOExponent: 1
     m_CompAOExponentDirect: 0
-    m_Padding: 2
+    m_Padding: 3
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
-    m_TextureCompression: 1
+    m_TextureCompression: 0
     m_FinalGather: 0
     m_FinalGatherFiltering: 1
     m_FinalGatherRayCount: 256
@@ -73,9 +73,9 @@ LightmapSettings:
     m_MixedBakeMode: 2
     m_BakeBackend: 1
     m_PVRSampling: 1
-    m_PVRDirectSampleCount: 32
-    m_PVRSampleCount: 500
-    m_PVRBounces: 2
+    m_PVRDirectSampleCount: 8
+    m_PVRSampleCount: 32
+    m_PVRBounces: 4
     m_PVRFilterTypeDirect: 0
     m_PVRFilterTypeIndirect: 0
     m_PVRFilterTypeAO: 0
@@ -257,7 +257,7 @@ MonoBehaviour:
   punctualIntensity: 600
   areaIntensity: 200
   enableSpotReflector: 1
-  m_InnerSpotPercent: 47
+  m_InnerSpotPercent: 50
   lightDimmer: 1
   m_VolumetricDimmer: 1
   lightUnit: 0
@@ -273,13 +273,13 @@ MonoBehaviour:
   shapeHeight: 0.5
   aspectRatio: 1
   shapeRadius: 0.5
-  maxSmoothness: 0.8
+  maxSmoothness: 0.5
   applyRangeAttenuation: 1
   useOldInspector: 0
   useVolumetric: 0
   featuresFoldout: 1
   showAdditionalSettings: 14
-  displayLightIntensity: 200
+  displayLightIntensity: 100
   displayAreaLightEmissiveMesh: 0
   lightLayers: 1
   shadowNearPlane: 0.0001
@@ -297,8 +297,8 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0.23529412, b: 0.078431375, a: 1}
-  m_Intensity: 32.11121
-  m_Range: 20
+  m_Intensity: 16.055605
+  m_Range: 15
   m_SpotAngle: 179
   m_CookieSize: 10
   m_Shadows:
@@ -2944,7 +2944,7 @@ MonoBehaviour:
   punctualIntensity: 600
   areaIntensity: 200
   enableSpotReflector: 1
-  m_InnerSpotPercent: 47
+  m_InnerSpotPercent: 50
   lightDimmer: 1
   m_VolumetricDimmer: 1
   lightUnit: 0
@@ -2960,13 +2960,13 @@ MonoBehaviour:
   shapeHeight: 0.5
   aspectRatio: 1
   shapeRadius: 0.5
-  maxSmoothness: 0.8
+  maxSmoothness: 0.5
   applyRangeAttenuation: 1
   useOldInspector: 0
   useVolumetric: 0
   featuresFoldout: 1
   showAdditionalSettings: 14
-  displayLightIntensity: 200
+  displayLightIntensity: 100
   displayAreaLightEmissiveMesh: 0
   lightLayers: 1
   shadowNearPlane: 0.0001
@@ -2984,8 +2984,8 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0.23529412, b: 0.078431375, a: 1}
-  m_Intensity: 32.11121
-  m_Range: 30
+  m_Intensity: 16.055605
+  m_Range: 15
   m_SpotAngle: 179
   m_CookieSize: 10
   m_Shadows:
@@ -3107,7 +3107,7 @@ MonoBehaviour:
   punctualIntensity: 600
   areaIntensity: 200
   enableSpotReflector: 1
-  m_InnerSpotPercent: 47
+  m_InnerSpotPercent: 50
   lightDimmer: 1
   m_VolumetricDimmer: 1
   lightUnit: 0
@@ -3123,13 +3123,13 @@ MonoBehaviour:
   shapeHeight: 0.5
   aspectRatio: 1
   shapeRadius: 0.5
-  maxSmoothness: 0.8
+  maxSmoothness: 0.5
   applyRangeAttenuation: 1
   useOldInspector: 0
   useVolumetric: 0
   featuresFoldout: 1
   showAdditionalSettings: 14
-  displayLightIntensity: 200
+  displayLightIntensity: 100
   displayAreaLightEmissiveMesh: 0
   lightLayers: 1
   shadowNearPlane: 0.0001
@@ -3147,8 +3147,8 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0.23529412, b: 0.078431375, a: 1}
-  m_Intensity: 32.11121
-  m_Range: 35
+  m_Intensity: 16.055605
+  m_Range: 15
   m_SpotAngle: 179
   m_CookieSize: 10
   m_Shadows:
@@ -3684,7 +3684,7 @@ MonoBehaviour:
   punctualIntensity: 600
   areaIntensity: 200
   enableSpotReflector: 1
-  m_InnerSpotPercent: 100
+  m_InnerSpotPercent: 50
   lightDimmer: 1
   m_VolumetricDimmer: 1
   lightUnit: 0
@@ -3699,14 +3699,14 @@ MonoBehaviour:
   shapeWidth: 0.5
   shapeHeight: 0.5
   aspectRatio: 1
-  shapeRadius: 0
-  maxSmoothness: 0.99
+  shapeRadius: 0.5
+  maxSmoothness: 0.5
   applyRangeAttenuation: 1
   useOldInspector: 0
   useVolumetric: 0
   featuresFoldout: 1
   showAdditionalSettings: 14
-  displayLightIntensity: 225
+  displayLightIntensity: 150
   displayAreaLightEmissiveMesh: 0
   lightLayers: 1
   shadowNearPlane: 0.0001
@@ -3724,8 +3724,8 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0.078431375, b: 0, a: 1}
-  m_Intensity: 36.12511
-  m_Range: 16
+  m_Intensity: 24.083406
+  m_Range: 20
   m_SpotAngle: 179
   m_CookieSize: 10
   m_Shadows:
@@ -3847,7 +3847,7 @@ MonoBehaviour:
   punctualIntensity: 600
   areaIntensity: 200
   enableSpotReflector: 1
-  m_InnerSpotPercent: 47
+  m_InnerSpotPercent: 50
   lightDimmer: 1
   m_VolumetricDimmer: 1
   lightUnit: 0
@@ -3863,13 +3863,13 @@ MonoBehaviour:
   shapeHeight: 0.5
   aspectRatio: 1
   shapeRadius: 0.5
-  maxSmoothness: 0.8
+  maxSmoothness: 0.5
   applyRangeAttenuation: 1
   useOldInspector: 0
   useVolumetric: 0
   featuresFoldout: 1
   showAdditionalSettings: 14
-  displayLightIntensity: 200
+  displayLightIntensity: 100
   displayAreaLightEmissiveMesh: 0
   lightLayers: 1
   shadowNearPlane: 0.0001
@@ -3887,8 +3887,8 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0.23529412, b: 0.078431375, a: 1}
-  m_Intensity: 32.11121
-  m_Range: 18
+  m_Intensity: 16.055605
+  m_Range: 15
   m_SpotAngle: 179
   m_CookieSize: 10
   m_Shadows:
@@ -4010,7 +4010,7 @@ MonoBehaviour:
   punctualIntensity: 600
   areaIntensity: 200
   enableSpotReflector: 1
-  m_InnerSpotPercent: 47
+  m_InnerSpotPercent: 50
   lightDimmer: 1
   m_VolumetricDimmer: 1
   lightUnit: 0
@@ -4026,13 +4026,13 @@ MonoBehaviour:
   shapeHeight: 0.5
   aspectRatio: 1
   shapeRadius: 0.5
-  maxSmoothness: 0.8
+  maxSmoothness: 0.5
   applyRangeAttenuation: 1
   useOldInspector: 0
   useVolumetric: 0
   featuresFoldout: 1
   showAdditionalSettings: 14
-  displayLightIntensity: 200
+  displayLightIntensity: 100
   displayAreaLightEmissiveMesh: 0
   lightLayers: 1
   shadowNearPlane: 0.0001
@@ -4050,8 +4050,8 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0.23529412, b: 0.078431375, a: 1}
-  m_Intensity: 32.11121
-  m_Range: 17
+  m_Intensity: 16.055605
+  m_Range: 15
   m_SpotAngle: 179
   m_CookieSize: 10
   m_Shadows:
@@ -4173,7 +4173,7 @@ MonoBehaviour:
   punctualIntensity: 600
   areaIntensity: 200
   enableSpotReflector: 1
-  m_InnerSpotPercent: 47
+  m_InnerSpotPercent: 50
   lightDimmer: 1
   m_VolumetricDimmer: 1
   lightUnit: 0
@@ -4189,13 +4189,13 @@ MonoBehaviour:
   shapeHeight: 0.5
   aspectRatio: 1
   shapeRadius: 0.5
-  maxSmoothness: 0.8
+  maxSmoothness: 0.5
   applyRangeAttenuation: 1
   useOldInspector: 0
   useVolumetric: 0
   featuresFoldout: 1
   showAdditionalSettings: 14
-  displayLightIntensity: 200
+  displayLightIntensity: 100
   displayAreaLightEmissiveMesh: 0
   lightLayers: 1
   shadowNearPlane: 0.0001
@@ -4213,8 +4213,8 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0.23529412, b: 0.078431375, a: 1}
-  m_Intensity: 32.11121
-  m_Range: 25
+  m_Intensity: 16.055605
+  m_Range: 15
   m_SpotAngle: 179
   m_CookieSize: 10
   m_Shadows:
@@ -4336,7 +4336,7 @@ MonoBehaviour:
   punctualIntensity: 600
   areaIntensity: 200
   enableSpotReflector: 1
-  m_InnerSpotPercent: 47
+  m_InnerSpotPercent: 50
   lightDimmer: 1
   m_VolumetricDimmer: 1
   lightUnit: 0
@@ -4352,13 +4352,13 @@ MonoBehaviour:
   shapeHeight: 0.5
   aspectRatio: 1
   shapeRadius: 0.5
-  maxSmoothness: 0.8
+  maxSmoothness: 0.5
   applyRangeAttenuation: 1
   useOldInspector: 0
   useVolumetric: 0
   featuresFoldout: 1
   showAdditionalSettings: 14
-  displayLightIntensity: 225
+  displayLightIntensity: 150
   displayAreaLightEmissiveMesh: 0
   lightLayers: 1
   shadowNearPlane: 0.0001
@@ -4376,7 +4376,7 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0.078431375, b: 0, a: 1}
-  m_Intensity: 36.12511
+  m_Intensity: 24.083406
   m_Range: 20
   m_SpotAngle: 179
   m_CookieSize: 10
@@ -4499,7 +4499,7 @@ MonoBehaviour:
   punctualIntensity: 600
   areaIntensity: 200
   enableSpotReflector: 1
-  m_InnerSpotPercent: 47
+  m_InnerSpotPercent: 50
   lightDimmer: 1
   m_VolumetricDimmer: 1
   lightUnit: 0
@@ -4515,13 +4515,13 @@ MonoBehaviour:
   shapeHeight: 0.5
   aspectRatio: 1
   shapeRadius: 0.5
-  maxSmoothness: 0.8
+  maxSmoothness: 0.5
   applyRangeAttenuation: 1
   useOldInspector: 0
   useVolumetric: 0
   featuresFoldout: 1
   showAdditionalSettings: 14
-  displayLightIntensity: 200
+  displayLightIntensity: 100
   displayAreaLightEmissiveMesh: 0
   lightLayers: 1
   shadowNearPlane: 0.0001
@@ -4539,8 +4539,8 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0.23529412, b: 0.078431375, a: 1}
-  m_Intensity: 32.11121
-  m_Range: 24
+  m_Intensity: 16.055605
+  m_Range: 15
   m_SpotAngle: 179
   m_CookieSize: 10
   m_Shadows:
@@ -4662,7 +4662,7 @@ MonoBehaviour:
   punctualIntensity: 600
   areaIntensity: 200
   enableSpotReflector: 1
-  m_InnerSpotPercent: 47
+  m_InnerSpotPercent: 50
   lightDimmer: 1
   m_VolumetricDimmer: 1
   lightUnit: 0
@@ -4678,13 +4678,13 @@ MonoBehaviour:
   shapeHeight: 0.5
   aspectRatio: 1
   shapeRadius: 0.5
-  maxSmoothness: 0.8
+  maxSmoothness: 0.5
   applyRangeAttenuation: 1
   useOldInspector: 0
   useVolumetric: 0
   featuresFoldout: 1
   showAdditionalSettings: 14
-  displayLightIntensity: 200
+  displayLightIntensity: 100
   displayAreaLightEmissiveMesh: 0
   lightLayers: 1
   shadowNearPlane: 0.0001
@@ -4702,8 +4702,8 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0.23529412, b: 0.078431375, a: 1}
-  m_Intensity: 32.11121
-  m_Range: 24
+  m_Intensity: 16.055605
+  m_Range: 15
   m_SpotAngle: 179
   m_CookieSize: 10
   m_Shadows:
@@ -4825,7 +4825,7 @@ MonoBehaviour:
   punctualIntensity: 600
   areaIntensity: 200
   enableSpotReflector: 1
-  m_InnerSpotPercent: 47
+  m_InnerSpotPercent: 50
   lightDimmer: 1
   m_VolumetricDimmer: 1
   lightUnit: 0
@@ -4841,13 +4841,13 @@ MonoBehaviour:
   shapeHeight: 0.5
   aspectRatio: 1
   shapeRadius: 0.5
-  maxSmoothness: 0.8
+  maxSmoothness: 0.5
   applyRangeAttenuation: 1
   useOldInspector: 0
   useVolumetric: 0
   featuresFoldout: 1
   showAdditionalSettings: 14
-  displayLightIntensity: 200
+  displayLightIntensity: 100
   displayAreaLightEmissiveMesh: 0
   lightLayers: 1
   shadowNearPlane: 0.0001
@@ -4865,8 +4865,8 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0.23529412, b: 0.078431375, a: 1}
-  m_Intensity: 32.11121
-  m_Range: 18
+  m_Intensity: 16.055605
+  m_Range: 15
   m_SpotAngle: 179
   m_CookieSize: 10
   m_Shadows:
@@ -5051,7 +5051,7 @@ MonoBehaviour:
   punctualIntensity: 600
   areaIntensity: 200
   enableSpotReflector: 1
-  m_InnerSpotPercent: 47
+  m_InnerSpotPercent: 50
   lightDimmer: 1
   m_VolumetricDimmer: 1
   lightUnit: 0
@@ -5067,13 +5067,13 @@ MonoBehaviour:
   shapeHeight: 0.5
   aspectRatio: 1
   shapeRadius: 0.5
-  maxSmoothness: 0.8
+  maxSmoothness: 0.5
   applyRangeAttenuation: 1
   useOldInspector: 0
   useVolumetric: 0
   featuresFoldout: 1
   showAdditionalSettings: 14
-  displayLightIntensity: 200
+  displayLightIntensity: 100
   displayAreaLightEmissiveMesh: 0
   lightLayers: 1
   shadowNearPlane: 0.0001
@@ -5091,8 +5091,8 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0.23529412, b: 0.078431375, a: 1}
-  m_Intensity: 32.11121
-  m_Range: 30
+  m_Intensity: 16.055605
+  m_Range: 15
   m_SpotAngle: 179
   m_CookieSize: 10
   m_Shadows:
@@ -5258,7 +5258,7 @@ MonoBehaviour:
   punctualIntensity: 600
   areaIntensity: 200
   enableSpotReflector: 1
-  m_InnerSpotPercent: 47
+  m_InnerSpotPercent: 50
   lightDimmer: 1
   m_VolumetricDimmer: 1
   lightUnit: 0
@@ -5274,13 +5274,13 @@ MonoBehaviour:
   shapeHeight: 0.5
   aspectRatio: 1
   shapeRadius: 0.5
-  maxSmoothness: 0.8
+  maxSmoothness: 0.5
   applyRangeAttenuation: 1
   useOldInspector: 0
   useVolumetric: 0
   featuresFoldout: 1
   showAdditionalSettings: 14
-  displayLightIntensity: 200
+  displayLightIntensity: 100
   displayAreaLightEmissiveMesh: 0
   lightLayers: 1
   shadowNearPlane: 0.0001
@@ -5298,8 +5298,8 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0.23529412, b: 0.078431375, a: 1}
-  m_Intensity: 32.11121
-  m_Range: 35
+  m_Intensity: 16.055605
+  m_Range: 15
   m_SpotAngle: 179
   m_CookieSize: 10
   m_Shadows:
