@@ -257,6 +257,7 @@ MonoBehaviour:
   punctualIntensity: 600
   areaIntensity: 200
   enableSpotReflector: 1
+  luxAtDistance: 1
   m_InnerSpotPercent: 50
   lightDimmer: 1
   m_VolumetricDimmer: 1
@@ -286,6 +287,7 @@ MonoBehaviour:
   shadowSoftness: 0.5
   blockerSampleCount: 24
   filterSampleCount: 16
+  minFilterSize: 0.00001
 --- !u!108 &126996906
 Light:
   m_ObjectHideFlags: 0
@@ -2944,6 +2946,7 @@ MonoBehaviour:
   punctualIntensity: 600
   areaIntensity: 200
   enableSpotReflector: 1
+  luxAtDistance: 1
   m_InnerSpotPercent: 50
   lightDimmer: 1
   m_VolumetricDimmer: 1
@@ -2973,6 +2976,7 @@ MonoBehaviour:
   shadowSoftness: 0.5
   blockerSampleCount: 24
   filterSampleCount: 16
+  minFilterSize: 0.00001
 --- !u!108 &291056922
 Light:
   m_ObjectHideFlags: 0
@@ -3107,6 +3111,7 @@ MonoBehaviour:
   punctualIntensity: 600
   areaIntensity: 200
   enableSpotReflector: 1
+  luxAtDistance: 1
   m_InnerSpotPercent: 50
   lightDimmer: 1
   m_VolumetricDimmer: 1
@@ -3136,6 +3141,7 @@ MonoBehaviour:
   shadowSoftness: 0.5
   blockerSampleCount: 24
   filterSampleCount: 16
+  minFilterSize: 0.00001
 --- !u!108 &359806513
 Light:
   m_ObjectHideFlags: 0
@@ -3270,6 +3276,7 @@ MonoBehaviour:
   punctualIntensity: 600
   areaIntensity: 200
   enableSpotReflector: 0
+  luxAtDistance: 1
   m_InnerSpotPercent: 0
   lightDimmer: 1
   m_VolumetricDimmer: 1
@@ -3292,13 +3299,14 @@ MonoBehaviour:
   useVolumetric: 1
   featuresFoldout: 1
   showAdditionalSettings: 0
-  displayLightIntensity: 5
+  displayLightIntensity: 6
   displayAreaLightEmissiveMesh: 0
   lightLayers: 1
   shadowNearPlane: 0.1
   shadowSoftness: 0.5
   blockerSampleCount: 24
   filterSampleCount: 16
+  minFilterSize: 0.00001
 --- !u!108 &378506629
 Light:
   m_ObjectHideFlags: 0
@@ -3310,7 +3318,7 @@ Light:
   serializedVersion: 8
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 5
+  m_Intensity: 6
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -3377,7 +3385,7 @@ Camera:
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 2
+  m_projectionMatrixMode: 1
   m_SensorSize: {x: 24.89, y: 18.66}
   m_LensShift: {x: 0, y: 0}
   m_GateFitMode: 2
@@ -3479,6 +3487,8 @@ MonoBehaviour:
     runLightListAsync: 1
     runSSRAsync: 1
     runSSAOAsync: 1
+    runContactShadowsAsync: 1
+    runVolumeVoxelizationAsync: 1
     lightLoopSettings:
       overrides: 0
       enableTileAndCluster: 1
@@ -3506,7 +3516,7 @@ MonoBehaviour:
     m_Bits: 256
   stopNaNPropagation: 1
   finalBlitToCameraTarget: 1
-  antialiasingMode: 0
+  antialiasingMode: 2
   temporalAntialiasing:
     jitterSpread: 0.75
     sharpness: 0.25
@@ -3684,6 +3694,7 @@ MonoBehaviour:
   punctualIntensity: 600
   areaIntensity: 200
   enableSpotReflector: 1
+  luxAtDistance: 1
   m_InnerSpotPercent: 50
   lightDimmer: 1
   m_VolumetricDimmer: 1
@@ -3713,6 +3724,7 @@ MonoBehaviour:
   shadowSoftness: 0.5
   blockerSampleCount: 24
   filterSampleCount: 16
+  minFilterSize: 0.00001
 --- !u!108 &811638593
 Light:
   m_ObjectHideFlags: 0
@@ -3847,6 +3859,7 @@ MonoBehaviour:
   punctualIntensity: 600
   areaIntensity: 200
   enableSpotReflector: 1
+  luxAtDistance: 1
   m_InnerSpotPercent: 50
   lightDimmer: 1
   m_VolumetricDimmer: 1
@@ -3876,6 +3889,7 @@ MonoBehaviour:
   shadowSoftness: 0.5
   blockerSampleCount: 24
   filterSampleCount: 16
+  minFilterSize: 0.00001
 --- !u!108 &929396093
 Light:
   m_ObjectHideFlags: 0
@@ -4010,6 +4024,7 @@ MonoBehaviour:
   punctualIntensity: 600
   areaIntensity: 200
   enableSpotReflector: 1
+  luxAtDistance: 1
   m_InnerSpotPercent: 50
   lightDimmer: 1
   m_VolumetricDimmer: 1
@@ -4039,6 +4054,7 @@ MonoBehaviour:
   shadowSoftness: 0.5
   blockerSampleCount: 24
   filterSampleCount: 16
+  minFilterSize: 0.00001
 --- !u!108 &992002413
 Light:
   m_ObjectHideFlags: 0
@@ -4173,6 +4189,7 @@ MonoBehaviour:
   punctualIntensity: 600
   areaIntensity: 200
   enableSpotReflector: 1
+  luxAtDistance: 1
   m_InnerSpotPercent: 50
   lightDimmer: 1
   m_VolumetricDimmer: 1
@@ -4202,6 +4219,7 @@ MonoBehaviour:
   shadowSoftness: 0.5
   blockerSampleCount: 24
   filterSampleCount: 16
+  minFilterSize: 0.00001
 --- !u!108 &1128183114
 Light:
   m_ObjectHideFlags: 0
@@ -4336,6 +4354,7 @@ MonoBehaviour:
   punctualIntensity: 600
   areaIntensity: 200
   enableSpotReflector: 1
+  luxAtDistance: 1
   m_InnerSpotPercent: 50
   lightDimmer: 1
   m_VolumetricDimmer: 1
@@ -4365,6 +4384,7 @@ MonoBehaviour:
   shadowSoftness: 0.5
   blockerSampleCount: 24
   filterSampleCount: 16
+  minFilterSize: 0.00001
 --- !u!108 &1272231667
 Light:
   m_ObjectHideFlags: 0
@@ -4499,6 +4519,7 @@ MonoBehaviour:
   punctualIntensity: 600
   areaIntensity: 200
   enableSpotReflector: 1
+  luxAtDistance: 1
   m_InnerSpotPercent: 50
   lightDimmer: 1
   m_VolumetricDimmer: 1
@@ -4528,6 +4549,7 @@ MonoBehaviour:
   shadowSoftness: 0.5
   blockerSampleCount: 24
   filterSampleCount: 16
+  minFilterSize: 0.00001
 --- !u!108 &1361173606
 Light:
   m_ObjectHideFlags: 0
@@ -4662,6 +4684,7 @@ MonoBehaviour:
   punctualIntensity: 600
   areaIntensity: 200
   enableSpotReflector: 1
+  luxAtDistance: 1
   m_InnerSpotPercent: 50
   lightDimmer: 1
   m_VolumetricDimmer: 1
@@ -4691,6 +4714,7 @@ MonoBehaviour:
   shadowSoftness: 0.5
   blockerSampleCount: 24
   filterSampleCount: 16
+  minFilterSize: 0.00001
 --- !u!108 &1589970469
 Light:
   m_ObjectHideFlags: 0
@@ -4825,6 +4849,7 @@ MonoBehaviour:
   punctualIntensity: 600
   areaIntensity: 200
   enableSpotReflector: 1
+  luxAtDistance: 1
   m_InnerSpotPercent: 50
   lightDimmer: 1
   m_VolumetricDimmer: 1
@@ -4854,6 +4879,7 @@ MonoBehaviour:
   shadowSoftness: 0.5
   blockerSampleCount: 24
   filterSampleCount: 16
+  minFilterSize: 0.00001
 --- !u!108 &1598134697
 Light:
   m_ObjectHideFlags: 0
@@ -5051,6 +5077,7 @@ MonoBehaviour:
   punctualIntensity: 600
   areaIntensity: 200
   enableSpotReflector: 1
+  luxAtDistance: 1
   m_InnerSpotPercent: 50
   lightDimmer: 1
   m_VolumetricDimmer: 1
@@ -5080,6 +5107,7 @@ MonoBehaviour:
   shadowSoftness: 0.5
   blockerSampleCount: 24
   filterSampleCount: 16
+  minFilterSize: 0.00001
 --- !u!108 &1812601735
 Light:
   m_ObjectHideFlags: 0
@@ -5258,6 +5286,7 @@ MonoBehaviour:
   punctualIntensity: 600
   areaIntensity: 200
   enableSpotReflector: 1
+  luxAtDistance: 1
   m_InnerSpotPercent: 50
   lightDimmer: 1
   m_VolumetricDimmer: 1
@@ -5287,6 +5316,7 @@ MonoBehaviour:
   shadowSoftness: 0.5
   blockerSampleCount: 24
   filterSampleCount: 16
+  minFilterSize: 0.00001
 --- !u!108 &1962276609
 Light:
   m_ObjectHideFlags: 0
