@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 3.7326365, g: 3.766974, b: 3.9274552, a: 1}
+  m_IndirectSpecularColor: {r: 8.202247, g: 8.279687, b: 8.651121, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2848,6 +2848,121 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5405313931374306093, guid: 74a7c8535e64c80468a0ba2be6fbe918,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5378198524938358052, guid: 74a7c8535e64c80468a0ba2be6fbe918,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7190672605806171324, guid: 74a7c8535e64c80468a0ba2be6fbe918,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4048116224380629003, guid: 74a7c8535e64c80468a0ba2be6fbe918,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7650278304264035314, guid: 74a7c8535e64c80468a0ba2be6fbe918,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 922296141969347187, guid: 74a7c8535e64c80468a0ba2be6fbe918,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8782236375148360443, guid: 74a7c8535e64c80468a0ba2be6fbe918,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 512396952095635052, guid: 74a7c8535e64c80468a0ba2be6fbe918,
+        type: 3}
+      propertyPath: m_RenderingLayerMask
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8582986826366928424, guid: 74a7c8535e64c80468a0ba2be6fbe918,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 1407201174997151880, guid: 74a7c8535e64c80468a0ba2be6fbe918,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 2233989817449965311, guid: 74a7c8535e64c80468a0ba2be6fbe918,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 6128860278329930493, guid: 74a7c8535e64c80468a0ba2be6fbe918,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 6970966223139497240, guid: 74a7c8535e64c80468a0ba2be6fbe918,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 8076603083883063194, guid: 74a7c8535e64c80468a0ba2be6fbe918,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 1934763115637139128, guid: 74a7c8535e64c80468a0ba2be6fbe918,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 9013749002033953354, guid: 74a7c8535e64c80468a0ba2be6fbe918,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 6482075118048092059, guid: 74a7c8535e64c80468a0ba2be6fbe918,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 3855066866495901588, guid: 74a7c8535e64c80468a0ba2be6fbe918,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 4168316550647579933, guid: 74a7c8535e64c80468a0ba2be6fbe918,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 3076911851673473227, guid: 74a7c8535e64c80468a0ba2be6fbe918,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 6581413214908640220, guid: 74a7c8535e64c80468a0ba2be6fbe918,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125628096295848155, guid: 74a7c8535e64c80468a0ba2be6fbe918,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 7933786019098288755, guid: 74a7c8535e64c80468a0ba2be6fbe918,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.005
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 74a7c8535e64c80468a0ba2be6fbe918, type: 3}
 --- !u!1 &291056918
@@ -3226,14 +3341,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Version: 1
-  shadowResolution: 512
+  shadowResolution: 1024
   shadowDimmer: 1
   volumetricShadowDimmer: 1
   shadowFadeDistance: 10000
   contactShadows: 1
   viewBiasMin: 0.2
   viewBiasMax: 100
-  viewBiasScale: 1
+  viewBiasScale: 1.5
   normalBiasMin: 0.5
   normalBiasMax: 0.5
   normalBiasScale: 1
@@ -3281,8 +3396,8 @@ MonoBehaviour:
   lightDimmer: 1
   m_VolumetricDimmer: 1
   lightUnit: 2
-  sunDiskSize: 1
-  sunHaloSize: 0.1
+  sunDiskSize: 13.2
+  sunHaloSize: 0.229
   fadeDistance: 10000
   affectDiffuse: 1
   affectSpecular: 1
@@ -3293,16 +3408,16 @@ MonoBehaviour:
   shapeHeight: 0.5
   aspectRatio: 1
   shapeRadius: 0
-  maxSmoothness: 0.99
+  maxSmoothness: 0.9
   applyRangeAttenuation: 1
   useOldInspector: 0
   useVolumetric: 1
   featuresFoldout: 1
-  showAdditionalSettings: 0
-  displayLightIntensity: 6
+  showAdditionalSettings: 2
+  displayLightIntensity: 30
   displayAreaLightEmissiveMesh: 0
   lightLayers: 1
-  shadowNearPlane: 0.1
+  shadowNearPlane: 0.075
   shadowSoftness: 0.5
   blockerSampleCount: 24
   filterSampleCount: 16
@@ -3318,12 +3433,12 @@ Light:
   serializedVersion: 8
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 6
+  m_Intensity: 30
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -3338,13 +3453,13 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_Lightmapping: 1
-  m_LightShadowCasterMode: 0
+  m_LightShadowCasterMode: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6000
   m_UseColorTemperature: 1
   m_ShadowRadius: 0
-  m_ShadowAngle: 0
+  m_ShadowAngle: 10
 --- !u!1 &707386946
 GameObject:
   m_ObjectHideFlags: 0
@@ -3717,7 +3832,7 @@ MonoBehaviour:
   useVolumetric: 0
   featuresFoldout: 1
   showAdditionalSettings: 14
-  displayLightIntensity: 150
+  displayLightIntensity: 200
   displayAreaLightEmissiveMesh: 0
   lightLayers: 1
   shadowNearPlane: 0.0001
@@ -3736,7 +3851,7 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0.078431375, b: 0, a: 1}
-  m_Intensity: 24.083406
+  m_Intensity: 32.11121
   m_Range: 20
   m_SpotAngle: 179
   m_CookieSize: 10
@@ -4377,7 +4492,7 @@ MonoBehaviour:
   useVolumetric: 0
   featuresFoldout: 1
   showAdditionalSettings: 14
-  displayLightIntensity: 150
+  displayLightIntensity: 200
   displayAreaLightEmissiveMesh: 0
   lightLayers: 1
   shadowNearPlane: 0.0001
@@ -4396,7 +4511,7 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0.078431375, b: 0, a: 1}
-  m_Intensity: 24.083406
+  m_Intensity: 32.11121
   m_Range: 20
   m_SpotAngle: 179
   m_CookieSize: 10
