@@ -1,6 +1,6 @@
 # SunTemple-Unity-HDRP
-#
-# ORCA UE4 Sun Temple v3 HDRP with Shader Graph
+
+ORCA UE4 Sun Temple v3 HDRP with Shader Graph
 
 Adapts a copy of version 3 of the UE4 Sun Temple assets from the NVIDIA's ORCA Project, which can be found at https://developer.nvidia.com/orca.
 
