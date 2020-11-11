@@ -1,14 +1,11 @@
 ﻿
-using System.Collections;
-using System.Collections.Generic;
 using System.IO;
 
 using UnityEditor;
 using UnityEngine;
-using UnityEngine.Experimental.Rendering.HDPipeline;
 
-using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using UnityEngine.Rendering.HighDefinition;
 
 
 public class LightsImportWindow_fscene 
@@ -145,7 +142,7 @@ public class LightsImportWindow_fscene
 						light.spotAngle = spotAnlge;
 						var innerPercenage = (spotAnlge - innerAngle) / spotAnlge;
 						var lightData = light.GetComponent<HDAdditionalLightData>();
-						lightData.m_InnerSpotPercent = 100.0f * innerPercenage;
+						lightData.innerSpotPercent = 100.0f * innerPercenage;
 					}
 				}
 			}
